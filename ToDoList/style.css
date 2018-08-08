@@ -1,0 +1,87 @@
+body
+{
+	background: linear-gradient(90deg, #11AFDC, #E8E9BE);
+	font-family: "Roboto";
+}
+
+#container
+{
+	margin: 100px auto;
+	width: 400px;
+	background: #f3f3f3;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+#header
+{
+	background: steelblue;
+	color: white;
+	font-size: 1.7em;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: normal;
+}
+input
+{
+	border: 3px solid #f3f3f3;
+	box-sizing: border-box;
+	width: 100%;
+	color: steelblue;
+	font-size: 20px;
+	background: #f3f3f3;
+	padding: 15px 15px 15px 20px;
+}
+input:focus
+{
+	background: white;
+	border: 3px solid steelblue;
+	outline: none;
+}
+i.fa-plus
+{
+	float: right;
+}
+.delete
+{
+	color: #f3f3f3;
+	height: 40px;
+	width: 0;
+	display: inline-block;
+	margin-right: 20px;
+	text-align: center;
+	background: red;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+li:hover span
+{
+	width: 40px;
+	opacity: 1.0;
+}
+
+ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li
+{
+	background: white;
+	color: #555;
+	height: 40px;
+	line-height: 40px;
+}
+
+li:nth-child(2n)
+{
+	background: #f3f3f3;
+}
+
+.completed
+{
+	color: gray;
+	text-decoration: line-through;
+}

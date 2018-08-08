@@ -1,0 +1,111 @@
+
+body{
+	background: #dd9;
+	background-image: url(imges/bg.jpeg);
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0 auto;
+	margin-left: 52px;
+}
+
+.header{
+	margin: 0 auto;
+	text-align: center;
+	color: #ddd;
+	text-shadow: 0 0 3px #333;
+}
+
+.invisible{
+	opacity: 0.0;
+}
+
+.sideLink{
+	background: #000;
+	color: #fdd;
+	font-size: 36px;
+	padding: 6px 6px 6px 12px;
+	margin-left: 0;
+	border-right: 0px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.sideLink:hover{
+	padding-left: 24px;
+}
+
+.leftManuEl
+{
+	float: none;
+}
+
+.leftMenu{
+	position: absolute;
+	left: 0;
+	top: 48%;
+}
+
+.mainContainerOuter{
+	padding-left: 52px;
+	margin-top: 10px;
+	margin-top: 50px;
+}
+
+img{
+	height: 200px;
+	width: 150px;
+	margin: 5px 5px;
+}
+.container{
+	text-align: center;
+	background: #9c9;
+	border: 1px solid #9c9;
+	border-radius: 20px;
+	padding: 30px;
+}
+
+.fa-chevron-left, .fa-chevron-right{
+	font-size: 2em;
+	padding-top: 2em;
+	color: black;
+}
+.chevron-disable{
+	color: #777;
+	opacity: 0.5;
+}
+
+.fa-html5, .fa-css3-alt, .fa-js, .fa-node, .fa-leaf, .express{
+	font-size: 5em;
+	margin: 0;
+}
+
+h4{
+	margin: 10px 0 0 0;
+	padding-bottom: 0;
+}
+
+.hover-element
+{
+	background: black;
+}
+
+.cell1:hover,
+.cell2:hover,
+.cell3:hover,
+.cell4:hover,
+.cell5:hover,
+.cell6:hover{
+	background: #aa7;
+	border: 1 solid #aa7;
+	border-radius: 10px;
+}
+
+
+a{
+	color: black;
+}
+a:hover{
+	color: black;
+}
+a:visited{
+	color: black;
+}
