@@ -88,17 +88,11 @@ h4{
 	background: black;
 }
 
-.cell1:hover,
-.cell2:hover,
-.cell3:hover,
-.cell4:hover,
-.cell5:hover,
-.cell6:hover{
+.projLink:hover{
 	background: #aa7;
 	border: 1 solid #aa7;
 	border-radius: 10px;
 }
-
 
 a{
 	color: black;
