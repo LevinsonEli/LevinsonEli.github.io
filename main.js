@@ -16,9 +16,9 @@ var data = [
     {
         "header": " My last projets: ",
         "cells": [
-            "<a href='https://tranquil-fjord-63888.herokuapp.com/' target='_blank'> <h4><b>YelpCamp</b></h4> <img src='imges/YelpCampIcon.jpg'> </a>",
-            "<a href='BarleyBreak/main.html' target='_blank'> <h4><b>Barley-Break</b></h4> <img src='imges/BarleyBreakIcon.jpg'> </a>",
-            "<a href='ToDoList/main.html' target='_blank'> <h4><b>ToDo List</b></h4> <img src='imges/ToDoListIcon.jpg'> </a>",
+            "<div class='projLink'> <a href='https://tranquil-fjord-63888.herokuapp.com/' target='_blank'> <h4><b>YelpCamp</b></h4> <img src='imges/YelpCampIcon.jpg'> </a> </div>",
+            "<div class='projLink'> <a href='BarleyBreak/main.html' target='_blank'> <h4><b>Barley-Break</b></h4> <img src='imges/BarleyBreakIcon.jpg'> </a> </div>",
+            "<div class='projLink'> <a href='ToDoList/main.html' target='_blank'> <h4><b>ToDo List</b></h4> <img src='imges/ToDoListIcon.jpg'> </a> </div>",
             "",
             "",
             ""
